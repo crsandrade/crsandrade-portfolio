@@ -2,7 +2,7 @@ export function Hero() {
   return (
     <section className="mx-auto flex min-h-screen max-w-6xl flex-col justify-center px-6 py-20">
       <p className="mb-4 text-sm font-semibold uppercase tracking-[0.3em] text-amber-400">
-        Desenvolvedor Frontend
+        Desenvolvedor Web
       </p>
 
       <h1 className="max-w-4xl text-4xl font-black leading-tight tracking-tight sm:text-5xl md:text-6xl">
