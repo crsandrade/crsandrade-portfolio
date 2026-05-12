@@ -1,10 +1,18 @@
+"use client";
+
+import { motion } from "framer-motion";
+
 export function Hero() {
   return (
     <section className="relative overflow-hidden">
       <div className="absolute left-1/2 top-0 h-[500px] w-[500px] -translate-x-1/2 rounded-full bg-amber-400/10 blur-3xl" />
 
       <div className="relative mx-auto grid min-h-screen max-w-6xl items-center gap-16 px-6 py-24 md:grid-cols-2">
-        <div>
+        <motion.div
+          initial={{ opacity: 0, y: 40 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.7 }}
+        >
           <div className="mb-6 inline-flex items-center rounded-full border border-amber-400/20 bg-amber-400/10 px-4 py-2 text-sm font-medium text-amber-300">
             ✦ Desenvolvedor Full Stack em evolução
           </div>
@@ -39,9 +47,14 @@ export function Hero() {
               Contato
             </a>
           </div>
-        </div>
+        </motion.div>
 
-        <div className="relative hidden md:block">
+        <motion.div
+          initial={{ opacity: 0, scale: 0.95 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{ duration: 0.7, delay: 0.2 }}
+          className="relative hidden md:block"
+        >
           <div className="absolute -left-10 top-10 h-32 w-32 rounded-full bg-amber-400/20 blur-3xl" />
 
           <div className="relative rounded-3xl border border-white/10 bg-white/[0.03] p-8 backdrop-blur-xl">
@@ -91,7 +104,7 @@ export function Hero() {
               <p>{"};"}</p>
             </div>
           </div>
-        </div>
+        </motion.div>
       </div>
     </section>
   );
