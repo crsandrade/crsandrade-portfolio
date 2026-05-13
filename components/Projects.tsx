@@ -12,9 +12,9 @@ const projects = [
         image: "/new_genesis.png"
     },
     {
-        title: "Sucesso planejado",
+        title: "Sucesso planejado | Controle Financeiro",
         description:
-            "SaaS estruturado para controle financeiro destinado para a organização financeira de casais.",
+            "SaaS estruturado para controle financeiro de casais, organização, planejamento e acompanhamento financeiro compartilhado.",
         stack: ["Next.js", "React", "Tailwind", "Supabase"],
         status: "Projeto Finalizado",
         github: "https://github.com/crsandrade/marriage-finances",
@@ -22,7 +22,7 @@ const projects = [
         image: "/sucesso_planejado.png"
     },
     {
-        title: "Valmiro Filho Website",
+        title: "Valmiro Filho | Conversão de Leads",
         description:
             "Landing page com foco em conversão de leads para o psicólogo Valmiro Filho. Site refatorado feito primáriamente em Javascript com PHP.",
         stack: ["Typescript", "Javascript", "Tailwind"],
