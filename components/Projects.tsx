@@ -14,7 +14,7 @@ const projects = [
     {
         title: "Sucesso planejado",
         description:
-            "SaaS criado para controle financeiro de casais.",
+            "SaaS estruturado para controle financeiro destinado para a organização financeira de casais.",
         stack: ["Next.js", "React", "Tailwind", "Supabase"],
         status: "Projeto Finalizado",
         github: "https://github.com/crsandrade/marriage-finances",
