@@ -1,3 +1,6 @@
+"use client";
+
+
 import { Code2, Database, Server, Wrench } from "lucide-react";
 
 const skills = [
@@ -14,12 +17,12 @@ const skills = [
   {
     icon: Database,
     title: "Banco de Dados",
-    items: ["SQL", "PostgreSQL", "Supabase", "Modelagem básica"],
+    items: ["SQL", "PostgreSQL", "Supabase", "Modelagem"],
   },
   {
     icon: Wrench,
     title: "Ferramentas",
-    items: ["Git", "GitHub", "VS Code", "WSL", "Vercel", "Thunder Client"],
+    items: ["Git", "VS Code", "WSL", "Vercel", "Postman"],
   },
 ];
 

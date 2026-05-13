@@ -5,26 +5,26 @@ const projects = [
       "Site responsivo para servidor MMORPG, com páginas institucionais, autenticação e estrutura preparada para integrações futuras.",
     stack: ["Next.js", "React", "Tailwind", "Supabase"],
     status: "Em desenvolvimento",
-    github: "#",
-    demo: "#",
+    github: "https://github.com/crsandrade/newgenesis-webproject",
+    demo: "https://newgenesis-webproject.vercel.app/",
   },
   {
-    title: "Portfólio Pessoal",
+    title: "Sucesso planejado",
     description:
-      "Site pessoal criado para apresentar projetos, habilidades, trajetória e formas de contato profissional.",
-    stack: ["Next.js", "React", "Tailwind"],
-    status: "Em construção",
-    github: "#",
-    demo: "#",
+      "SaaS criado para controle financeiro de casais.",
+    stack: ["Next.js", "React", "Tailwind", "Supabase"],
+    status: "Projeto Finalizado",
+    github: "https://github.com/crsandrade/marriage-finances",
+    demo: "https://www.sucessoplanejado.com.br/",
   },
   {
-    title: "Calculadora de Comissão",
+    title: "Valmiro Filho Website",
     description:
-      "Aplicação web baseada em um sistema originalmente feito em C, adaptada para uma interface simples e acessível.",
-    stack: ["JavaScript", "HTML", "CSS", "C"],
-    status: "Projeto prático",
-    github: "#",
-    demo: "#",
+      "Landing page com foco em conversão de leads para o psicólogo Valmiro Filho. Site refatorado feito primáriamente em Javascript com PHP.",
+    stack: ["Typescript", "Javascript", "Tailwind"],
+    status: "Projeto Finalizado",
+    github: "https://github.com/crsandrade/sentydos-website",
+    demo: "https://www.psicologovalmirofilho.com.br/",
   },
 ];
 
@@ -86,7 +86,7 @@ export function Projects() {
               </a>
 
               <a
-                href={project.demo}
+                href={project.demo} target="_blank"   rel="noopener noreferrer"
                 className="rounded-xl bg-amber-400 px-4 py-2 text-sm font-bold text-black transition hover:bg-amber-300"
               >
                 Demo
