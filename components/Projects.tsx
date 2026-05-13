@@ -36,7 +36,7 @@ const projects = [
 export function Projects() {
     return (
         <section id="projects" className="mx-auto max-w-6xl px-6 py-24">
-            <p className="mb-3 text-sm font-semibold uppercase tracking-[0.3em] text-amber-400">
+            <p className="mb-3 text-sm font-semibold uppercase tracking-[0.3em] text-cyan-400">
                 Projetos
             </p>
 
@@ -57,7 +57,7 @@ export function Projects() {
                 {projects.map((project) => (
                     <article
                         key={project.title}
-                        className="group overflow-hidden rounded-3xl border border-white/10 bg-white/[0.03] transition hover:-translate-y-1 hover:border-amber-400/30 hover:bg-white/[0.06]"
+                        className="group overflow-hidden rounded-3xl border border-white/10 bg-white/[0.03] transition hover:-translate-y-1 hover:border-cyan-400/30 hover:bg-white/[0.06]"
                     >
                         <div className="relative overflow-hidden border-b border-white/10">
                             <Image
@@ -71,7 +71,7 @@ export function Projects() {
                             <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-black/10 to-transparent" />
 
                             <div className="absolute left-4 top-4">
-                                <div className="w-fit rounded-full border border-amber-400/20 bg-black/40 px-3 py-1 text-xs font-semibold text-amber-300 backdrop-blur-xl">
+                                <div className="w-fit rounded-full border border-cyan-400/20 bg-black/40 px-3 py-1 text-xs font-semibold text-cyan-300 backdrop-blur-xl">
                                     {project.status}
                                 </div>
                             </div>
@@ -111,7 +111,7 @@ export function Projects() {
                                     href={project.demo}
                                     target="_blank"
                                     rel="noopener noreferrer"
-                                    className="rounded-xl bg-amber-400 px-4 py-2 text-sm font-bold text-black transition hover:bg-amber-300"
+                                    className="rounded-xl bg-cyan-400 px-4 py-2 text-sm font-bold text-black transition hover:bg-cyan-300"
                                 >
                                     Demo
                                 </a>

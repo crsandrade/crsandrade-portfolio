@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 export function About() {
     return (
         <section id="about" className="relative overflow-hidden px-6 py-24">
-            <div className="absolute left-1/2 top-0 h-96 w-96 -translate-x-1/2 rounded-full bg-amber-400/10 blur-3xl" />
+            <div className="absolute left-1/2 top-0 h-96 w-96 -translate-x-1/2 rounded-full bg-cyan-400/10 blur-3xl" />
 
             <motion.div
                 initial={{ opacity: 0, y: 40 }}
@@ -21,7 +21,7 @@ export function About() {
                 </div>
                 <div className="grid gap-10 md:grid-cols-[0.8fr_1.2fr]">
                     <div>
-  <p className="mb-4 text-sm font-semibold uppercase tracking-[0.3em] text-amber-400">
+  <p className="mb-4 text-sm font-semibold uppercase tracking-[0.3em] text-cyan-400">
     Sobre mim
   </p>
 
@@ -36,19 +36,19 @@ export function About() {
   </p>
 
   <div className="mt-8 flex flex-wrap gap-3">
-    <span className="rounded-full border border-amber-400/20 bg-amber-400/10 px-4 py-2 text-sm font-medium text-amber-300">
+    <span className="rounded-full border border-cyan-400/20 bg-cyan-400/10 px-4 py-2 text-sm font-medium text-cyan-300">
       React
     </span>
 
-    <span className="rounded-full border border-amber-400/20 bg-amber-400/10 px-4 py-2 text-sm font-medium text-amber-300">
+    <span className="rounded-full border border-cyan-400/20 bg-cyan-400/10 px-4 py-2 text-sm font-medium text-cyan-300">
       Next.js
     </span>
 
-    <span className="rounded-full border border-amber-400/20 bg-amber-400/10 px-4 py-2 text-sm font-medium text-amber-300">
+    <span className="rounded-full border border-cyan-400/20 bg-cyan-400/10 px-4 py-2 text-sm font-medium text-cyan-300">
       Node.js
     </span>
 
-    <span className="rounded-full border border-amber-400/20 bg-amber-400/10 px-4 py-2 text-sm font-medium text-amber-300">
+    <span className="rounded-full border border-cyan-400/20 bg-cyan-400/10 px-4 py-2 text-sm font-medium text-cyan-300">
       Full Stack
     </span>
   </div>
