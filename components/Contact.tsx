@@ -17,23 +17,25 @@ export function Contact() {
 
         <div className="mt-8 flex flex-col gap-4 sm:flex-row">
           <a
-            href="mailto:seuemail@email.com"
+            href="mailto:rafaeldev.andrade@gmail.com"
             className="rounded-xl bg-black px-6 py-3 text-center font-bold text-white transition hover:bg-zinc-800"
           >
             Enviar email
           </a>
 
           <a
-            href="https://www.linkedin.com/"
+            href="https://www.linkedin.com/in/rafael-de-andrade-sousa-da-cruz/"
             target="_blank"
+            rel="noopener noreferrer"
             className="rounded-xl border border-black/20 px-6 py-3 text-center font-bold text-black transition hover:bg-black/10"
           >
             LinkedIn
           </a>
 
           <a
-            href="https://github.com/"
+            href="https://github.com/crsandrade/"
             target="_blank"
+            rel="noopener noreferrer"
             className="rounded-xl border border-black/20 px-6 py-3 text-center font-bold text-black transition hover:bg-black/10"
           >
             GitHub
